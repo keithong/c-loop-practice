@@ -10,16 +10,18 @@
 
 int main(int argc, const char * argv[])
 {
-    //let's start counting at zero
-    int i = 0;
-    
-    //let's stop counting at 10 (use '<=' instead of '<')
-    while (i <= 10) {
-        
-        printf("The value of i now is %d\n", i);
-        i++;
-
+    printf("This is using the while loop:\n");       //introduce while loop
+    int i = 0;                                      //let's start counting at zero
+    while (i <= 4) {                                //let's stop counting at 4 (use '<=' instead of '<')
+        printf("The value of i now is %d\n", i);    //print the value of i per iterate
+        i++;                                        //increment i to avoid infinite loop
     }
+    
+    printf("This is using the for loop:\n");        //introduce for loop
+    for (int j = 0; j<=4; j++) {                    //initialize the iterator 'j', add the range '<=4', increment after
+        printf("The value of j now is %d\n", j);    //executing the statement
+    }
+    
     return 0;
 }
 
