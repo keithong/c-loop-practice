@@ -22,6 +22,13 @@ int main(int argc, const char * argv[])
         printf("The value of j now is %d\n", j);    //executing the statement
     }
     
+    printf("This is using do-while loop:\n");       //introduce do-while loop
+    int k = 0;                                      //let's start at zero again
+    do {
+        printf("The value of k now is %d\n", k);    //print the value of k per iterate
+        k++;                                        //increment k to avoid infinite loop
+    } while (k <= 4);                               //let's stop counting at 4
+    
     return 0;
 }
 
