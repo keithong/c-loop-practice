@@ -10,8 +10,13 @@
 
 int main(int argc, const char * argv[])
 {
+    int i = 0;
+    while (i <= 10) {
+        
+        printf("The value of i now is %d\n", i);
+        i++;
 
-    printf("This is a looping statement practice in C!\n");
+    }
     return 0;
 }
 
