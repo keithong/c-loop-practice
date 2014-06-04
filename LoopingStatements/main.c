@@ -10,7 +10,10 @@
 
 int main(int argc, const char * argv[])
 {
+    //let's start counting at zero
     int i = 0;
+    
+    //let's stop counting at 10 (use '<=' instead of '<')
     while (i <= 10) {
         
         printf("The value of i now is %d\n", i);
